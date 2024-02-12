@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+  color: whitesmoke;
+  word-spacing: 1px;
+}
+
+/* Header content */
+ .logo img{
+    width: 70px;
+    border-radius: 37px;
+    margin: 10px 0  0 15px;
+}
+
+.navi ul li{
+    display: inline;
+    cursor: pointer;
+}
+
+.navi ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+    font-weight: bold;
+    
+}
+
+.compname{
+    color: rgb(0, 165, 0);
+    cursor: pointer;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.header{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headnav li a:hover{
+    background-color: rgb(0, 165, 0);
+    border-radius: 20px;
+    transition-duration: .6s;
+    color: black;
+    /* font-size: 20px; */
+    /* letter-spacing: 2px; */
+    /* font-weight: bold; */
+    text-shadow: 2px 2px #028e00;
+}
+
+/* Cards Style in All pages */
+
+#headline{
+    margin-left: 20px;
+    padding: 20px 0;
+}
+    
+.lineone{
+    background:linear-gradient(#242424, #000000);
+    margin-top: 20px;
+}
+
+.cards{
+    padding: 15px;  
+    background-color: #028e00;
+    border-radius: 20px;
+    margin: 10px;
+    width: 15%;
+    float: left;
+
+}
+
+
+.cards img{
+    margin-bottom: 10px;
+    border-radius: 20px;
+    width: 100%;
+    justify-content: center;
+}
+
+/* Search Page  */
+
+.searchbar{
+    background:linear-gradient(#242424, #000000);
+}
+#searchbar{
+    margin: 20px 0 0 30px;
+    width: 20%;
+    border-radius: 20px;
+}
+
+#Suggestion{
+    margin: 20px 0 5px 35px; 
+}
+
+/* Favourite Page  */
+#favsongs{
+    margin: 20px 0 5px px; 
+    display: block;
+}
+
+.recentlyplayed{
+    float: left;
+    margin: 20px 0 10px 30px;
+}
+
+
+
+
+
+
+
+
+
+
